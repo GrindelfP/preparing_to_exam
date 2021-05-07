@@ -25,7 +25,7 @@
 k = 0
 min = 10415
 for i in range(1740, 14455):
-    if (i % 4 == 0 or i % 5 == 0) and (i % 8 != 0 and i % 12 != 0 and i % 16 != 0 and i % 30 != 0):
+    if (i % 4 == 0 and i % 5 == 0) and (i % 8 != 0 and i % 12 != 0 and i % 16 != 0 and i % 30 != 0):
         k = k + 1
         if i < min:
             min = i
