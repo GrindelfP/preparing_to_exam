@@ -1,30 +1,30 @@
-# # 1
-# def f(n):
-#     if n > 2:
-#         return f(n - 1) + f(n - 2)
-#     else:
-#         return 1
-#
-#
-# print(f(5))
+# 1
+def f(n):
+    if n > 2:
+        return f(n - 1) + f(n - 2)
+    else:
+        return 1
 
 
-# # 2
-# def F(n):
-#     if n > 2:
-#         return F(n-1)+G(n-1)+F(n-2)
-#     else:
-#         return n
-#
-#
-# def G(n):
-#     if n > 2:
-#         return G(n-1)+F(n-1)+G(n-2)
-#     else:
-#         return n+1
-#
-#
-# print(G(5))
+print(f(5))
+
+
+# 2
+def F(n):
+    if n > 2:
+        return F(n-1)+G(n-1)+F(n-2)
+    else:
+        return n
+
+
+def G(n):
+    if n > 2:
+        return G(n-1)+F(n-1)+G(n-2)
+    else:
+        return n+1
+
+
+print(G(5))
 
 
 # 3
