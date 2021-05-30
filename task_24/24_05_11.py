@@ -1,4 +1,4 @@
-with open("materials/24_05_11_21.txt", "r") as file:
+with open("materials/24_05_11.txt", "r") as file:
     string = file.readline()
     counter = 0
     counter_max = 0

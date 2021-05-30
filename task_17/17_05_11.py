@@ -1,7 +1,7 @@
 k = 0
 min = 48990
 for i in range(16015, 48990):
-    if i % 7 == 0 or i % 11 == 0 and i % 9 != 0 and i % 12 != 0 and i % 13 != 0:
+    if (i % 7 == 0 or i % 11 == 0) and i % 9 != 0 and i % 12 != 0 and i % 13 != 0:
         k = k + 1
         if i < min:
             min = i
