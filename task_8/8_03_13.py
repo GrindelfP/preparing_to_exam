@@ -7,7 +7,7 @@ for i in "тимофей":
                 for m in alphabet:
                     for n in alphabet:
                         t = i + j + k + l + m + n
-                        if t.find("т") >= 1:
+                        if t.count("т") >= 1:
                             F += 1
 
 print(F)
